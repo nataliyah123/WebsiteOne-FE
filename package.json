@@ -7,7 +7,8 @@
   "author": "AgileVentures",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server --mode development",
+    "start-for-docker": "webpack-dev-server --mode development --host 0.0.0.0",
     "build": "webpack --mode production",
     "fix": "standard --fix",
     "test": "export NODE_ENV=testing && standard && jest",
