@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Header, Segment, Grid, Embed, Image, Icon } from 'semantic-ui-react'
+import { Header, Segment, Grid, Image, Icon } from 'semantic-ui-react'
 import CustomRingLoader from './CustomRingLoader'
 import Videos from './Videos'
 import ReactHtmlParser from 'react-html-parser'
@@ -58,7 +58,7 @@ const EventSummary = props => {
               </Grid>
             </Segment>
           </Grid.Column>
-          <Videos name={event} id='event-info-videos'/>          
+          <Videos name={event} id='event-info-videos' />
         </Grid>
       </Fragment>
     )

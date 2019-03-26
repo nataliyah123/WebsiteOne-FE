@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Header, Image, Grid, Card, Icon, Segment, Embed } from 'semantic-ui-react'
+import { Header, Image, Grid, Card, Icon, Segment } from 'semantic-ui-react'
 import CustomRingLoader from './CustomRingLoader'
 import Videos from './Videos'
 import { Link } from 'react-router-dom'
@@ -111,7 +111,7 @@ const ProjectSummary = props => {
             </Grid>
           </Fragment>
         </Grid.Column>
-	<Videos name={project} id='project-info-videos' />        
+        <Videos name={project} id='project-info-videos' />
       </Grid>
     )
   } else {

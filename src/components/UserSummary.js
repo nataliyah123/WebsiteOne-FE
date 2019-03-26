@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Card, Image, Grid, Label, Tab, Embed, Icon } from 'semantic-ui-react'
+import { Card, Image, Grid, Label, Tab, Icon } from 'semantic-ui-react'
 import CustomRingLoader from './CustomRingLoader'
 import Videos from './Videos'
 import moment from 'moment'
@@ -222,7 +222,7 @@ const UserSummary = props => {
                 className='user-profile-tabs'
               />
             </Grid.Column>
-            <Videos name={user} id='user-profile-videos'/>            
+            <Videos name={user} id='user-profile-videos' />
           </Grid.Row>
         </Grid>
       </Fragment>
