@@ -8,5 +8,7 @@ export default {
   userInfo: {},
   projectInfo: {},
   events: [],
-  eventInfo: {}
+  eventInfo: {},
+  selectedLanguage: null,
+  filteredProjectsState: {}
 }
